@@ -54,7 +54,9 @@ body[data-theme="dark"] h3,
 body[data-theme="dark"] h4,
 body[data-theme="dark"] h5,
 body[data-theme="dark"] dd,
-body[data-theme="dark"] dt
+body[data-theme="dark"] dt,
+body[data-theme="dark"] .modal-body,
+body[data-theme="dark"] .modal-header .button
 {
   color: #FFF;
 }
@@ -95,4 +97,30 @@ body[data-theme="dark"] h5.card-title .text-muted
 body[data-theme="dark"] .form-control
 {
   background-color: #e6e6e6;
+}
+
+footer#stickybottom
+{
+  background-color: #d8d8d8!important;
+}
+
+body[data-theme="dark"] footer#stickybottom
+{
+  background-color: #212529!important;
+}
+
+body[data-theme="dark"] .modal-content
+{
+  background-color: #212529!important;
+}
+
+body[data-theme="dark"] .modal-footer,
+body[data-theme="dark"] .modal-header
+{
+  border-color: #444444;
+}
+
+body[data-theme="dark"] #loading_pools
+{
+  color: #FFFFFF;
 }
