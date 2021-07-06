@@ -13,6 +13,10 @@ body {
   border-color: #c93f4b;	
 }
 
+.syrup .bg-primary.boost-header {
+  background-color: #342f2f !important;
+}
+
 .bg-primary {
   background-color: #c93f4b !important;
 }
@@ -132,10 +136,6 @@ body[data-theme="dark"] .modal-header
 body[data-theme="dark"] #loading_pools
 {
   color: #FFFFFF;
-}
-
-.boostheadertext {
-  background-color: #342f2f;
 }
 
 .ripple {
