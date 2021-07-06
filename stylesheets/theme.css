@@ -64,7 +64,8 @@ body[data-theme="dark"] dt,
 body[data-theme="dark"] .modal-body,
 body[data-theme="dark"] .modal-header .button,
 body[data-theme="dark"] .offcanvas-body,
-body[data-theme="dark"] label
+body[data-theme="dark"] label,
+body[data-theme="dark"] p
 {
   color: #FFF;
 }
