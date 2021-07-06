@@ -17,6 +17,10 @@ body {
   background-color: #c93f4b !important;
 }
 
+.syrup .bg-primary {
+  background-color: #640505 !important;
+}
+
 .border-primary {
   border-color: #c93f4b !important;
 }
@@ -43,7 +47,9 @@ body {
 
 /* Dark theme */
 
-body[data-theme="dark"] {
+body[data-theme="dark"],
+body[data-theme="dark"] .offcanvas
+{
   background-color: #363636;
 }
 
@@ -56,7 +62,9 @@ body[data-theme="dark"] h5,
 body[data-theme="dark"] dd,
 body[data-theme="dark"] dt,
 body[data-theme="dark"] .modal-body,
-body[data-theme="dark"] .modal-header .button
+body[data-theme="dark"] .modal-header .button,
+body[data-theme="dark"] .offcanvas-body,
+body[data-theme="dark"] label
 {
   color: #FFF;
 }
@@ -123,4 +131,42 @@ body[data-theme="dark"] .modal-header
 body[data-theme="dark"] #loading_pools
 {
   color: #FFFFFF;
+}
+
+
+.ripple {
+  margin: auto;
+  /*margin-top: 15rem;*/
+  background-color: #571221;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  position: relative;
+  animation: ripple 3s linear infinite
+}
+
+.ripple::before,
+.ripple::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  animation: ripple 3s linear infinite 1s
+}
+
+.ripple::after {
+  animation: ripple 3s linear infinite 2s
+}
+
+@keyframes ripple {
+  0% {
+      box-shadow: 0 0 0 .7rem rgba(255, 255, 255, 0.2)
+  }
+
+  100% {
+      box-shadow: 0 0 0 8rem rgba(255, 255, 255, 0)
+  }
 }
