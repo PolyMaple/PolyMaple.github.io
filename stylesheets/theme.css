@@ -134,6 +134,9 @@ body[data-theme="dark"] #loading_pools
   color: #FFFFFF;
 }
 
+.boostheadertext {
+  background-color: #342f2f;
+}
 
 .ripple {
   margin: auto;
