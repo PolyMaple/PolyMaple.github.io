@@ -10,7 +10,7 @@ body {
 .btn-primary.disabled, .btn-primary:disabled
 {
   background-color: #c93f4b;
-  border-color: #c93f4b;	
+  border-color: #c93f4b;
 }
 
 .syrup .bg-primary.boost-header {
@@ -21,12 +21,20 @@ body {
   background-color: #c93f4b !important;
 }
 
+.inactive .bg-primary {
+  background-color: #827e7f !important;
+}
+
 .syrup .bg-primary {
   background-color: #640505 !important;
 }
 
 .border-primary {
   border-color: #c93f4b !important;
+}
+
+.inactive .border-primary {
+  border-color: #000 !important;
 }
 
 .btn-primary:hover {
