@@ -77,7 +77,8 @@ body[data-theme="dark"] .modal-body,
 body[data-theme="dark"] .modal-header .button,
 body[data-theme="dark"] .offcanvas-body,
 body[data-theme="dark"] label,
-body[data-theme="dark"] p
+body[data-theme="dark"] p,
+body[data-theme="dark"] li
 {
   color: #FFF;
 }
@@ -144,6 +145,11 @@ body[data-theme="dark"] .modal-header
 body[data-theme="dark"] #loading_pools
 {
   color: #FFFFFF;
+}
+
+ul.harvestlockup
+{
+  list-style-type : none;
 }
 
 .ripple {
