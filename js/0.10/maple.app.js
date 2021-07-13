@@ -63,7 +63,7 @@ const RPC_API_URL4 = "https://rpc-mainnet.maticvigil.com/v1/64d43f17e4a8bc3daec1
 const RPC_API_URL4_WS = "wss://rpc-mainnet.maticvigil.com/ws/v1/64d43f17e4a8bc3daec1e2b0e51564fcee871440";
 //const RPC_API_URL = "https://rpc-mainnet.maticvigil.com/v1/64d43f17e4a8bc3daec1e2b0e51564fcee871440"; // mainnet
 
-const RPC_API_LIST = [RPC_API_URL,RPC_API_URL2];
+const RPC_API_LIST = [RPC_API_URL4,RPC_API_URL2];
 
 /************ RPC Definitions ************/
 
