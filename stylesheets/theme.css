@@ -152,6 +152,21 @@ ul.harvestlockup
   list-style-type : none;
 }
 
+/*
+#logo
+{
+  background-image: url(/assets/maple/PolyMapleTitleLogo_WhiteText.png);
+  display: block;
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+}*/
+
+body[data-theme="dark"] #logo
+{
+  content: url("/assets/maple/PolyMapleTitleLogo_WhiteText.png");
+}
+
 .ripple {
   margin: auto;
   /*margin-top: 15rem;*/
